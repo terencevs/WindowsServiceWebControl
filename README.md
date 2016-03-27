@@ -14,7 +14,7 @@ A self hosted Windows service which provides an API to query the state, start, s
 * http://{servicehost}:8081/service/{host}/{service_name}/restart
 
 ### Installing Service
-To run the serice in command line and not install it simply double click on the executable.
+To run the service in command line and not install it simply double click on the executable.
 To install the service simple run the following command from cmd: (run as administrator)
 ```
 WindowsServiceWebControl install
