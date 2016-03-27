@@ -4,7 +4,6 @@ A self hosted Windows service which provides an API to query the state, start, s
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/terencevs/WindowsServiceWebControl/master/LICENSE)
 [![Build status](https://ci.appveyor.com/api/projects/status/6lvrn7dk3t22a3lh?svg=true)](https://ci.appveyor.com/project/terencevs/windowsservicewebcontrol)
-[![Join the chat at https://gitter.im/terencevs/WindowsServiceWebControl](https://badges.gitter.im/terencevs/WindowsServiceWebControl.svg)](https://gitter.im/terencevs/WindowsServiceWebControl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ### End Points
 #### Get
 * http://{servicehost}:8081/service/{host}/{service_name}/status
