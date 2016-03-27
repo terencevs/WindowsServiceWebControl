@@ -2,6 +2,7 @@
 using NLog;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,8 @@ namespace WindowsServiceWebControl
 
         public void Start()
         {
-            app = WebApp.Start<Startup>(url: "http://+:8081");
+            string port = ConfigurationManager.AppSettings["port"];
+            app = WebApp.Start<Startup>(url: "http://+:" + port);
             _log.Info("WSWC Service has started");
         }
 
