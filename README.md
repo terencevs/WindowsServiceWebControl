@@ -1,4 +1,6 @@
 # Windows Service Web Control
+
+[![Join the chat at https://gitter.im/terencevs/WindowsServiceWebControl](https://badges.gitter.im/terencevs/WindowsServiceWebControl.svg)](https://gitter.im/terencevs/WindowsServiceWebControl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A self hosted Windows service which provides an API to query the state, start, stop, restart Windows services. The idea came from wanting a way to allow HUBOT (https://hubot.github.com/) to perform actions on Windows Services.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/6lvrn7dk3t22a3lh?svg=true)](https://ci.appveyor.com/project/terencevs/windowsservicewebcontrol)
